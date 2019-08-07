@@ -1,0 +1,97 @@
+﻿<!DOCTYPE html>
+<html dir="ltr" lang="zh-tw">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, shrink-to-fit=no">
+    <title>趣高雄 | 最新消息</title>
+    <meta name="keywords" content="趣高雄,創生基地" />
+    <meta name="description" content="趣高雄,創生基地" />
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/font-awesome.css" rel="stylesheet">
+    <link href="css/footer.css" rel="stylesheet">
+    <link href="css/menu.css" rel="stylesheet">
+    <link href="css/layout.css" rel="stylesheet">
+    <!-- clientSideInclude JS -->
+    <script src="js/ClientSideInclude.js"></script>
+</head>
+
+<body>
+    <!--header-->
+    <div id="header"></div>
+    <script>
+        clientSideInclude('header', 'header.html')
+    </script>
+
+    <main class="cd-main-content">
+        <div class="container-fluid">
+            <div class="row">
+                <!--menuHeader-->
+                <div id="menuHeader" class="menuHeader"></div>
+                <script>
+                    clientSideInclude('menuHeader', 'news_header.html')
+                </script>
+
+                <div class="container">
+                    <div class="row">
+                        <!--Title-->
+                        <section class="pege-content">
+                            <div class="pc-title">
+                                <h3>高雄市政府經發局 108年度高雄火車站暨美麗島大道周邊商圈營造計畫起跑!</h3>
+                                <span><a href="news.html">最新公告</a></span>
+                            </div>
+
+                            <div class="pc-date">
+                                <p>發布時間：2019/07/18</p>
+                            </div>
+                        </section>
+
+                        <!--內容-->
+                        <div class="main-content col-xs-12">
+                            <img src="img/news/news.jpg" alt="">
+                            <div class="content-box">
+                                <img src="img/news/news1.jpg" alt="">
+                                <img src="img/news/news2.jpg" alt="">
+                                <img src="img/news/news3.jpg" alt="">
+                                <img src="img/news/news4.jpg" alt="">
+                            </div>
+
+                            <!-- <div class="download">
+                                <div class="title">
+                                    <i class="fa fa-download fa-2x" aria-hidden="true"></i>檔案下載
+                                </div>
+
+                                <ul>
+                                    <li>徵文公告.pdf</li>
+                                    <li>報名表.word</li>
+                                </ul>
+                            </div> -->
+
+                            <a href="news.html">
+                                <div class="more news-back col-xs-12">
+                                    <p>回最新消息</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!--footer-->
+    <div id="footer"></div>
+    <script>
+        clientSideInclude('footer', 'footer.html')
+    </script>
+
+    <script src="js/jquery.1.9.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/modernizr.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
